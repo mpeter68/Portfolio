@@ -1,8 +1,14 @@
+html{
+    scroll-behavior: smooth;
+}
+
 #landing{
     height: 100vh;
     max-height: 100vh;
 }
-
+#portfolio{
+    min-height: 100vh;
+}
 #landingLeftPart,
 #landingRightPart{
     height: 100%;
