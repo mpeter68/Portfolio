@@ -1,0 +1,9 @@
+#landing{
+    height: 100vh;
+    max-height: 100vh;
+}
+
+#landingLeftPart,
+#landingRightPart{
+    height: 100%;
+}
