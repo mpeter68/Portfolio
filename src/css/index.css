@@ -1,7 +1,9 @@
 html{
     scroll-behavior: smooth;
 }
-
+.card{
+    height: 100%;
+}
 #landing{
     height: 100vh;
     max-height: 100vh;

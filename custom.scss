@@ -1,8 +1,24 @@
-$body-bg: #333232;
-$body-color: #F9C784;
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@1,300&display=swap');
+
+$primaryColor: #f21b3f;
+$secondaryColor: #74D3AE;
+$headings-color: #F9C784;
+$bgcolor: #333232;
+
+$body-bg: $bgcolor;
+$body-color: $secondaryColor;
+$card-bg: lighten($body-bg, 1);
+$card-border: darken($body-bg, 20);
+.card{
+  background-color: $card-bg;
+  border: 1px solid $card-border;
+}
 $theme-colors: (
         "primary": #f21b3f,
         "secondary":#74D3AE
 );
 
+*{
+  font-family: 'Roboto', sans-serif;
+}
 @import "node_modules/bootstrap/scss/bootstrap";

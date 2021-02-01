@@ -1,4 +1,14 @@
 @charset "UTF-8";
+@import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@1,300&display=swap");
+.card {
+  background-color: #363535;
+  border: 1px solid black;
+}
+
+* {
+  font-family: "Roboto", sans-serif;
+}
+
 /*!
  * Bootstrap v4.6.0 (https://getbootstrap.com/)
  * Copyright 2011-2021 The Bootstrap Authors
@@ -59,7 +69,7 @@ body {
   font-size: 1rem;
   font-weight: 400;
   line-height: 1.5;
-  color: #F9C784;
+  color: #74D3AE;
   text-align: left;
   background-color: #333232;
 }
@@ -355,6 +365,7 @@ h1, h2, h3, h4, h5, h6,
   margin-bottom: 0.5rem;
   font-weight: 500;
   line-height: 1.2;
+  color: #F9C784;
 }
 
 h1, .h1 {
@@ -1646,7 +1657,7 @@ pre code {
 .table {
   width: 100%;
   margin-bottom: 1rem;
-  color: #F9C784;
+  color: #74D3AE;
 }
 .table th,
 .table td {
@@ -1691,7 +1702,7 @@ pre code {
 }
 
 .table-hover tbody tr:hover {
-  color: #F9C784;
+  color: #74D3AE;
   background-color: rgba(0, 0, 0, 0.075);
 }
 
@@ -2045,7 +2056,7 @@ select.form-control:focus::-ms-value {
   margin-bottom: 0;
   font-size: 1rem;
   line-height: 1.5;
-  color: #F9C784;
+  color: #74D3AE;
   background-color: transparent;
   border: solid transparent;
   border-width: 1px 0;
@@ -2384,7 +2395,7 @@ textarea.form-control {
 .btn {
   display: inline-block;
   font-weight: 400;
-  color: #F9C784;
+  color: #74D3AE;
   text-align: center;
   vertical-align: middle;
   user-select: none;
@@ -2402,7 +2413,7 @@ textarea.form-control {
   }
 }
 .btn:hover {
-  color: #F9C784;
+  color: #74D3AE;
   text-decoration: none;
 }
 .btn:focus, .btn.focus {
@@ -2968,7 +2979,7 @@ input[type=button].btn-block {
   padding: 0.5rem 0;
   margin: 0.125rem 0 0;
   font-size: 1rem;
-  color: #F9C784;
+  color: #74D3AE;
   text-align: left;
   list-style: none;
   background-color: #fff;
@@ -4314,7 +4325,7 @@ input[type=button].btn-block {
   flex-direction: column;
   min-width: 0;
   word-wrap: break-word;
-  background-color: #fff;
+  background-color: #363535;
   background-clip: border-box;
   border: 1px solid rgba(0, 0, 0, 0.125);
   border-radius: 0.25rem;
@@ -4994,7 +5005,7 @@ a.badge-dark:focus, a.badge-dark.focus {
   background-color: #f8f9fa;
 }
 .list-group-item-action:active {
-  color: #F9C784;
+  color: #74D3AE;
   background-color: #e9ecef;
 }
 
@@ -5765,6 +5776,7 @@ a.close.disabled {
   padding: 0.5rem 0.75rem;
   margin-bottom: 0;
   font-size: 1rem;
+  color: #F9C784;
   background-color: #f7f7f7;
   border-bottom: 1px solid #ebebeb;
   border-top-left-radius: calc(0.3rem - 1px);
@@ -5776,7 +5788,7 @@ a.close.disabled {
 
 .popover-body {
   padding: 0.5rem 0.75rem;
-  color: #F9C784;
+  color: #74D3AE;
 }
 
 .carousel {
@@ -9790,7 +9802,7 @@ a.text-dark:hover, a.text-dark:focus {
 }
 
 .text-body {
-  color: #F9C784 !important;
+  color: #74D3AE !important;
 }
 
 .text-muted {
