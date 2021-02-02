@@ -1,0 +1,16 @@
+#aboutme{
+    width: 100vw;
+    max-width: 100vw;
+    min-height: 100vh;
+}
+#svg{
+    height: 80vh;
+}
+#svgDiv {
+    display: flex;
+}
+@media screen and (max-width: 768px) {
+    #svgDiv, svg {
+        display: none;
+    }
+}
