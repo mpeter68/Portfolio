@@ -9,6 +9,15 @@
   font-family: "Roboto", sans-serif;
 }
 
+#landingRightPart {
+  display: flex;
+}
+
+@media screen and (max-width: 768px) {
+  #landingRightPart {
+    display: none;
+  }
+}
 /*!
  * Bootstrap v4.6.0 (https://getbootstrap.com/)
  * Copyright 2011-2021 The Bootstrap Authors
