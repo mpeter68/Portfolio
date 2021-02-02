@@ -1,5 +1,12 @@
 @charset "UTF-8";
 @import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@1,300&display=swap");
+html {
+  width: 100vw;
+  max-width: 100vw;
+  min-width: 100vw;
+  overflow-x: hidden;
+}
+
 .card {
   background-color: #363535;
   border: 1px solid black;
