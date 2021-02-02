@@ -1,0 +1,17 @@
+html{
+    scroll-behavior: smooth;
+}
+.card{
+    height: 100%;
+}
+#landing{
+    height: 100vh;
+    max-height: 100vh;
+}
+#portfolio{
+    min-height: 100vh;
+}
+#landingLeftPart,
+#landingRightPart{
+    height: 100%;
+}

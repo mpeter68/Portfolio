@@ -1,0 +1,32 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@1,300&display=swap');
+
+$primaryColor: #f21b3f;
+$secondaryColor: #74D3AE;
+$headings-color: #F9C784;
+$bgcolor: #333232;
+
+$body-bg: $bgcolor;
+$body-color: $secondaryColor;
+$card-bg: lighten($body-bg, 1);
+$card-border: darken($body-bg, 20);
+.card{
+  background-color: $card-bg;
+  border: 1px solid $card-border;
+}
+$theme-colors: (
+        "primary": #f21b3f,
+        "secondary":#74D3AE
+);
+
+*{
+  font-family: 'Roboto', sans-serif;
+}
+#landingRightPart {
+  display: flex;
+}
+@media screen and (max-width: 768px) {
+  #landingRightPart {
+    display: none;
+  }
+}
+@import "node_modules/bootstrap/scss/bootstrap";
